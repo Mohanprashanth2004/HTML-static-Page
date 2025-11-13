@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Design Life Cycle Analyzer</title>
+  <link rel="stylesheet" href="exp4.css">
+</head>
+<body>
+  <h1>Design Life Cycle - Step Tracker</h1>
+  <form id="stepForm">
+    <select id="phase">
+      <option>Requirement Analysis</option>
+      <option>Design</option>
+      <option>Implementation</option>
+      <option>Testing</option>
+      <option>Deployment</option>
+    </select>
+    <input id="title" placeholder="Step title" required>
+    <input id="owner" placeholder="Owner">
+    <input id="progress" type="number" min="0" max="100" value="0">
+    <button type="submit">Add</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr><th>ID</th><th>Phase</th><th>Title</th><th>Owner</th><th>Progress</th><th>Action</th></tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <div id="overall"></div>
+  <script src="exp4.js"></script>
+</body>
+</html>
