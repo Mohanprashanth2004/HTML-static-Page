@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b1020;
+  color: #e5e7eb;
+  text-align: center;
+  margin: 20px;
+}
+form, table {
+  background: #1f2937;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+input, select, button {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  margin: 4px;
+}
+button {
+  background: #38bdf8;
+  color: #000;
+  cursor: pointer;
+}
+table {
+  width: 90%;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid #334155;
+}
+#overall {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.progress {
+  height: 8px;
+  background: #38bdf8;
+  border-radius: 5px;
+}
